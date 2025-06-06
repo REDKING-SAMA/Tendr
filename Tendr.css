@@ -374,6 +374,7 @@
 }
 
 .images-container {
+  padding-top: 50px;
   position: relative;
   min-height: 120px;
 }
@@ -398,7 +399,7 @@
 }
 
 .img-right {
-  top: 24%;
+  top: 40%;
   right: 0;
   width: 95px;
   height: 95px;
@@ -756,7 +757,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 }
 
 .img-right {
-  top: 23%;
+  top: 40%;
   right: 0;
   width: 80px;
   height: 80px;
@@ -823,5 +824,14 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   width: 80px;
   height: 80px;
 }
+  .logo-icon{
+    width: 100px;
+    height: 40px;
+  }
+
+  .footer-logo .logo .logo-icon {
+      max-width: 250px;
+      height: 40px;
+    }
 
 }
