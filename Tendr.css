@@ -821,8 +821,9 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 }
 
 .img-right {
-  width: 80px;
-  height: 80px;
+  top:20;
+  width: 60px;
+  height: 60px;
 }
   .logo-icon{
     width: 100px;
