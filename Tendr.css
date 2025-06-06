@@ -792,9 +792,36 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
     font-size: 0.75rem;
   }
 
-
  .founder-story .story-title{
   font-size: 0.8rem;
   }
 
 } 
+@media (width <= 480px) {
+  .main-nav {
+    font-size: 0.6rem;
+  }
+  .site-footer{
+    font-size: 1rem;
+  }
+  .footer-bottom{
+    justify-content: center;
+  }
+  .footer-bottom-right{
+    text-align: center;
+  }
+  .img-left {
+  width: 50px;
+  height: 50px;
+}
+
+.img-bottom-left {
+  left: 6%;
+}
+
+.img-right {
+  width: 80px;
+  height: 80px;
+}
+
+}
