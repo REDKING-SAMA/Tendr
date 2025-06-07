@@ -798,10 +798,12 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   }
 
 } 
+
+
 @media (width <= 480px) {
   .main-nav {
     font-size: 0.7rem;
-    max-height: fit-content;
+    max-height: min-content;
     }
   .site-footer{
     font-size: 1rem;
@@ -822,7 +824,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 }
 
 .img-right {
-  top:40%;
+  top: 50%;
   width: 60px;
   height: 60px;
 }
