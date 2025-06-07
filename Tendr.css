@@ -802,7 +802,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
 @media (width <= 480px) {
   .main-nav {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     }
   .site-footer{
     font-size: 1rem;
@@ -837,7 +837,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   font-size: 0.8em;
 }
   .logo-icon{
-    width: 95px;
+    width: 90px;
     height: 30px;
   }
 
