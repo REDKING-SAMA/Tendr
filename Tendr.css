@@ -802,7 +802,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
 @media (width <= 480px) {
   .main-nav {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     }
   .site-footer{
     font-size: 1rem;
