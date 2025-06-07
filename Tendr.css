@@ -54,7 +54,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      min-height: 60px;
+      min-height: 50px;
       background-color: #f0f0f0; 
       z-index: 1000;
       box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
@@ -105,7 +105,7 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -3px; /* space below text */
+  bottom: -2px; 
   width: 100%;
   height: 3px;
   background-color: #ff3b30;
@@ -804,6 +804,10 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   .main-nav {
     font-size: 0.6rem;
     }
+  .logo-icon{
+    width: 90px;
+    height: 30px;
+  }
   .site-footer{
     font-size: 1rem;
   }
@@ -836,10 +840,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 .story-side-text p{
   font-size: 0.8em;
 }
-  .logo-icon{
-    width: 90px;
-    height: 30px;
-  }
+  
 
   .footer-logo .logo .logo-icon {
       max-width: 250px;
