@@ -804,6 +804,9 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   .main-nav {
     font-size: 0.6rem;
     }
+    .main-nav ul {
+      gap: 0.5rem;
+    }
   .logo-icon{
     width: 90px;
     height: 30px;
