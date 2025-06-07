@@ -802,10 +802,10 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
 @media (width <= 480px) {
   .main-nav {
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     }
     .main-nav ul {
-      gap: 0.5rem;
+      gap: 0.75rem;
     }
   .logo-icon{
     width: 90px;
