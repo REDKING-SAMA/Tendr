@@ -1,4 +1,4 @@
- * { margin: 0; 
+* { margin: 0; 
   padding: 0; 
   box-sizing:border-box; 
 }
@@ -790,7 +790,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
     }
 
   .main-nav {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 
  .founder-story .story-title{
@@ -817,17 +817,17 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 }
 
 .img-bottom-left {
-  left: 6%;
+  left: 5%;
 }
 
 .img-right {
-  top:22%;
+  top:23%;
   width: 60px;
   height: 60px;
 }
   .logo-icon{
-    width: 100px;
-    height: 40px;
+    width: 95px;
+    height: 30px;
   }
 
   .footer-logo .logo .logo-icon {
