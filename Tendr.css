@@ -819,6 +819,9 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
       margin-left: 1px;
       margin-right: 1px;
     }
+  .founder-story .story-title{
+  font-size: 0.65rem;
+  }
   .logo-icon{
     width: 90px;
     height: 30px;
@@ -859,12 +862,15 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 .story-heading p{
   text-align: center;
   justify-content: center;
+  padding-left: 1px;
 }
 .story-title{
   padding-top: 1rem ;
 }
   .story-pic {
     max-width: 110%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 .story-side-text h2{
   font-size: 1.5rem;
