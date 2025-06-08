@@ -37,7 +37,7 @@
       width: 180px;
       height: 50px;
       margin-right: 0.3rem;
-      margin-left: 1rem;
+      margin-left: 0.5rem;
 }
 
 
@@ -702,7 +702,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
   .btn-primary{
     font-size: 1.5rem;
-    margin-right: 5px;
+    margin-right: 3px;
   }
 
 
@@ -710,10 +710,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
 /* Responsive */
 @media (width <= 768px) {
-    *{
-    margin-left: 3px;
-    margin-right: 3px;
-  }
+
   .hero-title {
     font-size: 2rem;
   }
@@ -814,7 +811,11 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
 
   .main-nav {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    }
+    .hero{
+      margin-left: 1px;
+      margin-right: 1px;
     }
   .logo-icon{
     width: 90px;
@@ -842,8 +843,6 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
 .img-bottom-left {
   left: 5%;
-  width: 50px;
-  height: 50px;
 }
 
 .img-right {
@@ -866,7 +865,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   
 
 .footer-logo .logo .logo-icon {
-      max-width: 300px;
+      max-width: 270px;
       height: 40px;
     }
 
