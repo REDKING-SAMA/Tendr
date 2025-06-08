@@ -65,7 +65,7 @@
       margin-left: 20px;
       display: flex;
       list-style: none;
-      gap: 2rem;
+      gap: 1rem;
     }
 
     .main-nav a {
@@ -628,7 +628,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
   .social-icons {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
     align-items: center;
   }
@@ -711,9 +711,8 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 /* Responsive */
 @media (width <= 768px) {
     *{
-    margin-left: 5px;
-    margin-right: 5px;
-    
+    margin-left: 3px;
+    margin-right: 3px;
   }
   .hero-title {
     font-size: 2rem;
@@ -786,6 +785,8 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
   .site-footer{
     font-size: 1.2rem;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .logo-icon{
@@ -821,6 +822,8 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   }
   .site-footer{
     font-size: 1rem;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .footer-bottom{
     justify-content: center;
@@ -828,13 +831,19 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   .footer-bottom-right{
     text-align: center;
   }
+  .images-container{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .img-left {
   width: 50px;
   height: 50px;
-}
+} 
 
 .img-bottom-left {
   left: 5%;
+  width: 50px;
+  height: 50px;
 }
 
 .img-right {
