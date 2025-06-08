@@ -856,7 +856,8 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   margin-left: 1px;
   margin-right: 1px;
 }
-.story-heading{
+.story-heading p{
+  text-align: center;
   justify-content: center;
 }
 .story-title{
@@ -870,6 +871,9 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 }
 .story-side-text p{
   font-size: 0.8em;
+}
+.story-footer{
+  margin-left: 1px;
 }
 .story-footer p {
   padding-left: 1px;
