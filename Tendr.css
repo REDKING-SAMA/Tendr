@@ -852,6 +852,13 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   width: 60px;
   height: 60px;
 }
+.story-row{
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.story-heading{
+  justify-content: center;
+}
 .story-title{
   padding-top: 1rem ;
 }
@@ -865,8 +872,8 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   font-size: 0.8em;
 }
 .story-footer p {
-  margin-left: 1.2px;
-  margin-right: 1.2px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .footer-logo .logo .logo-icon {
