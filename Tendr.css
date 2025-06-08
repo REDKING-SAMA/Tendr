@@ -522,6 +522,8 @@
 }
 
 .story-footer p {
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-size: 1.1rem;
   margin-bottom: 2rem;
   text-align: left;
@@ -862,7 +864,10 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 .story-side-text p{
   font-size: 0.8em;
 }
-  
+.story-footer p {
+  margin-left: 1.2px;
+  margin-right: 1.2px;
+}
 
 .footer-logo .logo .logo-icon {
       max-width: 270px;
