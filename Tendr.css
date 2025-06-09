@@ -207,7 +207,7 @@
     }
 
      .hero-image img {
-      width: 100%;
+      width: 95%;
 
       /* max-width: relative; */
       border-radius: 16px;
@@ -411,9 +411,9 @@
     }
 
      .story-image img {
-      width: 100%;
+      width: 95%;
       border-radius: 16px;
-      padding-bottom: 1rem;
+      margin-bottom: 1rem;
     }
 
     .founder-story {
@@ -445,6 +445,9 @@
   flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
 }
 
 .story-heading {
@@ -473,6 +476,7 @@
   display: flex; 
   max-width: 100%;
   margin: 0 auto 2rem;
+  margin-left: 1rem;
   gap: 2rem;
   align-items: flex-start;
   flex-wrap: wrap; 
@@ -790,7 +794,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
   .logo-icon{
     width: 120px;
-    height: 45px;
+    height: 50px;
   }
 
   .footer-logo .logo .logo-icon {
@@ -799,7 +803,9 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
     }
 
   .main-nav {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
  .founder-story .story-title{
