@@ -2,6 +2,36 @@
   padding: 0; 
   box-sizing:border-box; 
 }
+/* Fullscreen overlay */
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff; /* or any background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Loader animation (spinner) */
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #ff3b30; /* Your brand red */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation keyframes */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 
     body {
       font-family: Poppins, sans-serif;
@@ -208,8 +238,6 @@
 
      .hero-image img {
       width: 95%;
-
-      /* max-width: relative; */
       border-radius: 16px;
     }
 
