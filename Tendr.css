@@ -531,8 +531,12 @@
 .story-pic:hover img {
   transform: scale(1.05);
 }
+.story-pic{
+  padding-top: 50px;
+  }
 
 .story-side-text {
+  margin-top: 5rem;
   max-width: 50%;
   padding-left: 1rem;
   flex: 2;
@@ -561,7 +565,7 @@
 .story-footer p {
   margin-left: 1rem;
   margin-right: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-bottom: 2rem;
   text-align: left;
   font-weight:500;
@@ -667,7 +671,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
   .social-icons {
     display: flex;
-    gap: 5px;
+    gap: 8px;
     justify-content: center;
     align-items: center;
   }
@@ -714,16 +718,18 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
   .story-side-text {
     margin-left: 0;
-    margin-top: 1rem;
+    margin-top: 0;
   }
 
   .story-side-text h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   .story-side-text p {
-    font-size: 1rem;
+    font-size: 1.3rem;
       
+  }.story-pic{
+  padding-top: 50px;
   }
 
   .story-pic img {
@@ -915,7 +921,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
   font-size: 1.5rem;
 }
 .story-side-text p{
-  font-size: 0.8em;
+  font-size: 1.3 rem;
 }
 .story-footer{
   margin-left: 1px;
