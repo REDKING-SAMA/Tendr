@@ -881,6 +881,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
     font-size: 1rem;
     margin-left: 0px;
     margin-right: 0px;
+    align-content: center;
   }
   .footer-bottom{
     justify-content: center;
