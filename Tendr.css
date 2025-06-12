@@ -89,7 +89,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      min-height: 50px;
+      min-height: 60px;
       background-color: #f0f0f0; 
       z-index: 1000;
       box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
@@ -842,7 +842,7 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
     }
 
   .main-nav {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -859,8 +859,14 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
 
   .main-nav {
     font-size: 0.6rem;
-    }
-    .hero{
+    min-height: 55px;
+  }
+  .main-nav ul {
+    gap: 0.6rem;
+    margin-left: 5px;
+
+  }
+  .hero{
       margin-left: 1px;
       margin-right: 1px;
     }
@@ -887,18 +893,20 @@ background: linear-gradient(to right, #ff3b30, #ffc1c1);
     margin-right: 0px;
   }
   .img-left {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
 } 
 
 .img-bottom-left {
   left: 5%;
+  width: 50px;
+  height: 50px;
 }
 
 .img-right {
-  top: 40%;
-  width: 60px;
-  height: 60px;
+  top: 35%;
+  width: 50px;
+  height: 50px;
 }
 .story-row{
   margin-left: 1px;
